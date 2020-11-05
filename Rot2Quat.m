@@ -43,7 +43,5 @@ end
 
 % Unitary quaterion
 q = [q0 q1 q2 q3]';
-p = q(2:4);
-norm = q0 + dot(p,p);
-q = q/norm;
+
 end
